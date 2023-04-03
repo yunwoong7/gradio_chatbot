@@ -1,7 +1,7 @@
 import gradio as gr
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'YOU API KEY HERE'
 
 def answer(state, state_chatbot, text):
     messages = state + [{
